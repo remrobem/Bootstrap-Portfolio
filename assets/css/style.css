@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 
-body {
+/* body {
   width: 960px;
   padding: 0;
   margin: 0;
@@ -13,13 +13,14 @@ body {
   background-image: url("../images/handmadepaper.png");
   /* background-color: #a31515; */
   /* min-height: 100%; */
+} */
+
+
+.img-responsive {
+    width: 100%;
 }
 
-.card {
-  width: 
-}
-
-h1,
+/* h1,
 h2,
 h3,
 h4,
@@ -93,7 +94,7 @@ header {
   height: 125px;
   background-color: white;
   /* color: #4aaaa5; */
-  z-index: 10;
+  /* z-index: 10;
   border-top-style: solid;
   border-image: url("../images/handmadepaper.png") 30% round;
   border-top-width: 30px;
@@ -112,7 +113,7 @@ header {
   top: 170px;
   background-color: white;
   /* color: #777777; */
-  width: 650px;
+  /* width: 650px;
   height: auto;
   padding: 30px 20px 0 20px;
   margin: 0px 40px 0 75px;
@@ -125,10 +126,10 @@ header {
   left: 765px;
   width: 270px;
   height: 175px;
-  background-color: white;
-}
+  background-color: white; */
+}  */
 
-aside h1 {
+/* aside h1 {
   text-align: center;
   padding: 10px;
   border-bottom-style: solid;
@@ -182,9 +183,9 @@ input[type="submit"] {
   position: relative;
   text-align: center;
   margin: 0 0 20px 0;
-}
+} */
 
-.portfolio_image {
+/* .portfolio_image {
   position: relative;
   height: 275px;
   width: 275px;
@@ -221,5 +222,5 @@ input[type="submit"] {
   bottom: 0px;
   border-top-color: #4aaaa5;
   border-top-style: solid;
-  border-top-width: 5px;
+  border-top-width: 5px; */
 }
