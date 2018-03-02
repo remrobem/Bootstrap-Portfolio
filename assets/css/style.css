@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+body {
+  background-image: url("../images/handmadepaper.png");
+}
+
 /* body {
   width: 960px;
   padding: 0;
@@ -13,10 +17,13 @@
   background-image: url("../images/handmadepaper.png");
   /* background-color: #a31515; */
   /* min-height: 100%; */
-} */
+/* } */ 
 
-
-.img-responsive {
+.card {
+  border: none;
+  text-align: center;
+}
+.icon {
     width: 100%;
 }
 
@@ -127,7 +134,7 @@ header {
   width: 270px;
   height: 175px;
   background-color: white; */
-}  */
+/* }  */ 
 
 /* aside h1 {
   text-align: center;
@@ -223,4 +230,4 @@ input[type="submit"] {
   border-top-color: #4aaaa5;
   border-top-style: solid;
   border-top-width: 5px; */
-}
+/* }  */
