@@ -97,20 +97,20 @@ header {
 
 .box_header {
   /* position: fixed; */
-  top: 60px;
-  left: 75px;
-  width: 650px;
-  height: 125px;
+  /* top: 60px; */
+  /* left: 75px; */
+  /* width: 650px; */
+  /* height: 125px; */
   background-color: white;
   /* color: #4aaaa5; */
-  z-index: 10;
+  /* z-index: 10; */
   border-top-style: solid;
   border-image: url("../images/handmadepaper.png") 30% round;
   border-top-width: 30px;
 }
 
 .box_header h4 {
-  /* padding: 30px 10px 30px 20px; */
+  padding: 30px 10px 30px 20px;
   border-bottom-style: solid;
   border-bottom-width: 4px;
   margin: 0 20px 0 20px;
@@ -123,23 +123,24 @@ header {
   background-color: white;
   /* color: #777777; */
   /* width: 650px; */
-  /* height: auto; */
-  /* padding: 30px 20px 0 20px; */
-  /* margin: 0px 40px 0 75px; */
-  overflow-y: auto;
+  /* height: auto;
+  padding: 30px 20px 0 20px; 
+  margin: 0px 40px 0 75px;
+  /* overflow-y: auto; */
 }
 
-.aside {
-  position: fixed;
-  top: 90px;
-  left: 765px;
-  width: 270px;
-  height: 175px;
+.connect {
+  /* position: fixed; */
+  /* top: 90px; */
+  /* left: 765px; */
+  /* width: 270px; */
+  /* height: 175px; */
   background-color: white;
-  z-index: 30;
+  background-image: url("../images/handmadepaper.png");
+  /* z-index: 30; */
 }
 
-aside h1 {
+.connect h4 {
   text-align: center;
   padding: 10px;
   border-bottom-style: solid;
@@ -166,17 +167,22 @@ aside h1 {
   margin: 10px
 }
 
-img {
+/* img {
   width: 200px;
   height: 175px;
-}
+} */
 
 #about_img {
   float: left;
   padding: 0 20px 20px 0;
   margin: 0;
+  width: 200px;
+  height: 175px;
 }
 
+.image-fluid {
+  background-color: white;
+}
 .bold {
   font-weight: bold;
 }
