@@ -215,14 +215,13 @@ input[type="submit"] {
 .imagebox {
   position: relative;
   text-align: center;
-  margin: 0 0 20px 0;
+  margin: 3rem 0 3rem 0;
+ 
 }
 
-/* .portfolio_image {
-  position: relative;
-  height: 275px;
-  width: 275px;
-} */
+.portfolio_image {
+    width: 100%;
+}
 
 .image_text {
   position: absolute;
@@ -235,13 +234,13 @@ input[type="submit"] {
   width: 100%;
 }
 
-.float_left {
+/* .float_left {
   float: left;
 }
 
 .float_right {
   float: right;
-}
+} */
 
 footer {
   position: fixed;
