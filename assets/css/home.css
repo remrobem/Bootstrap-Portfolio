@@ -1,21 +1,23 @@
 * {
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
 }
 
 html {
-  position: relative;
-  min-height: 100%;
+  /* position: relative; */
+  /* min-height: 100%; */
 }
 body {
   /* width: 960px; */
-  padding: 0;
-  margin: 0px 0px 60px 0px;
- 
+  /* padding: 0; */
+  /* margin: 0px 0px 0px 0px;  */
+  margin-bottom: 60px;
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
   font-size: 18px;
   line-height: 175%;
   color: #777777;
   background-image: url("../images/handmadepaper.png");
+  min-height: 75rem;
+  padding-top: 5rem;
   /* background-color: #a31515; */
   /* min-height: 100%; */
 }
@@ -28,6 +30,20 @@ body {
     width: 100%;
 }
 
+.navrow {
+  background-color: white;
+  border-bottom-color: slategray;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  
+}
+.navbar {
+  padding: 0;
+}
+
+.navname {
+  /* padding-left: 0; */
+}
 
 h1,
 h2,
@@ -43,19 +59,20 @@ h6 input[type="submit"] {
 header {
   position: fixed;
   top: 0;
-  left: 75px;
-  width: 960px;
+  /* left: 75px; */
+  /* width: 960px; */
   border-bottom-color: slategray;
   border-bottom-style: solid;
   border-bottom-width: 1px;
   z-index: 10;
 }
 
+
 #name {
-  float: left;
-  width: 25%;
+  /* float: left; */
+  /* width: 25%; */
   margin: 0;
-  height: 60px;
+  height: 100%;
   background-color: #4aaaa5;
   color: white;
   text-align: center;
@@ -63,8 +80,8 @@ header {
 }
 
 #nav {
-  background-color: white;
-  height: 60px;
+  /* background-color: white; */
+  /* height: 60px; */
 }
 
 #nav_bar ul {
@@ -82,18 +99,18 @@ header {
   border-right: 0px;
 }
 
-#nav_bar a {
+/* #nav_bar a {
   color: black;
   padding: 8px 16px;
-}
+} */
 
-#nav_bar a:link {
+/* #nav_bar a:link {
   text-decoration: none;
 }
 
 #nav_bar a:visited {
   text-decoration: none;
-}
+} */
 
 .box_header {
   /* position: fixed; */
@@ -149,12 +166,12 @@ header {
   color: #4aaaa5;
   font-size: 20px;
 }
-
+/* 
 .aside a {
   text-decoration: none;
-}
+} */
 
-.connect_container {
+/* .connect_container {
   padding: 0;
   margin-top: 10px;
   text-align: center;
@@ -165,7 +182,7 @@ header {
   width: 60px;
   height: 60px;
   margin: 10px
-}
+} */
 
 /* img {
   width: 200px;
@@ -180,9 +197,9 @@ header {
   height: 175px;
 }
 
-.image-fluid {
+/* .image-fluid {
   background-color: white;
-}
+} */
 .bold {
   font-weight: bold;
 }
@@ -195,19 +212,19 @@ input[type="submit"] {
   font-size: 20px;
 }
 
-.imagebox {
+/* .imagebox {
   position: relative;
   text-align: center;
   margin: 0 0 20px 0;
-}
+} */
 
-.portfolio_image {
+/* .portfolio_image {
   position: relative;
   height: 275px;
   width: 275px;
-}
+} */
 
-.image_text {
+/* .image_text {
   position: absolute;
   top: 80%;
   left: 50%;
@@ -216,7 +233,7 @@ input[type="submit"] {
   background-color: #4aaaa5;
   text-align: center;
   width: 100%;
-}
+} */
 
 .float_left {
   float: left;
